@@ -36,5 +36,8 @@
     <ClCompile Include="output.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="subtraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -4,6 +4,7 @@ using namespace std;
 
 void generator(int**& array1, int**& array2, int &quantity_digits1, int &quantity_digits2, int n, int m);
 void addition(int** array1, int** array2, int quantity_digits1, int quantity_digits2, int n, int m);
+void subtraction(int** array1, int** array2, int quantity_digits1, int quantity_digits2, int n, int m);
 void multiplication(int** array1, int** array2, int quantity_digits1, int quantity_digits2, int n, int m);
 
 void exit();
@@ -24,7 +25,8 @@ void part2()
 	cout << " Choose what you will do with the arrays: " << endl;
 	cout << " 1. Addition " << endl;
 	cout << " 2. Multiplication " << endl;
-	cout << " 3. Back " << endl;
+	cout << " 3. Subtraction " << endl;
+	cout << " 4. Back " << endl;
 	cout << " 4. Exit " << endl;
 }
 
@@ -125,11 +127,16 @@ void start()
 					}
 					case '3':
 					{
+						puts(" You've chosen Addition ");
+						subtraction(array1, array2, quantity_digits1, quantity_digits2, n, m);
+					}
+					case '4':
+					{
 						system("cls");
 						f2 = 1;
 						break;
 					}
-					case '4':
+					case '5':
 					{
 						exit();
 					}
@@ -194,11 +201,16 @@ void start()
 					}
 					case '3':
 					{
+						puts(" You've chosen Addition ");
+						subtraction(array1, array2, quantity_digits1, quantity_digits2, n, m);
+					}
+					case '4':
+					{
 						system("cls");
 						f2 = 1;
 						break;
 					}
-					case '4':
+					case '5':
 					{
 						exit();
 					}

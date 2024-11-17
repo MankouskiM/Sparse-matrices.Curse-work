@@ -146,6 +146,7 @@
     <ClCompile Include="multiplication.cpp" />
     <ClCompile Include="output.cpp" />
     <ClCompile Include="start.cpp" />
+    <ClCompile Include="subtraction.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
